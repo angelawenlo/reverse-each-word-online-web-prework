@@ -4,6 +4,7 @@ convert = sentence.split( )
 new_array =[]
 convert.collect do |reversed|
   new_array << reversed.reverse
+  binding.pry
   end
   new_array.join(" ")
 end
