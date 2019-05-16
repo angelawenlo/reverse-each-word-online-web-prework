@@ -1,8 +1,9 @@
 require 'pry'
 def reverse_each_word(sentence)
 convert = sentence.split( )
+new_array =[]
 convert.each do |reversed|
-  reversed_sentence = reversed.reverse
+  reversed.reverse
   end
   reversed_sentence.join(" ")
 end
