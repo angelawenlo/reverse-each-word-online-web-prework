@@ -5,5 +5,5 @@ new_array =[]
 convert.each do |reversed|
   new_array << reversed.reverse
   end
-  reversed_sentence.join(" ")
+  new_array.join(" ")
 end
