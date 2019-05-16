@@ -4,4 +4,5 @@ convert = sentence.split( )
 convert.each do |reversed|
   reversed_sentence = reversed.reverse
   end
+  reversed_sentence.join(" ")
 end
